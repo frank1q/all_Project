@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>登陆</title>
+</head>
+
+<!-- 点击更新验证码 -->
+<script>
+function click_change(obj){
+	obj.src="__URL__/verify/random/"+Math.random();
+}
+</script>
+
+<body>
+	<form action="__URL__/doLogin" method="post">
+		<p>用户名：<input type="text" name="username" id="" /></p>
+		<p>密码：<input type="password" name="password" id="" /></p>
+		<p>验证码：<input type="text" name="verify" id="" /></p>
+		<p><input type="submit" value="登陆" /><img src='__URL__/verify/' onClick="click_change(this)" />
+</p>
+	</form>
+</body>
+</html>
