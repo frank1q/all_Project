@@ -16,7 +16,7 @@ return array(
 
     'DB_NAME'=> 'cms',        // 数据库名,填写你创建的数据库
     'DB_USER'=> 'root',         // 用户名
-    'DB_PWD'=> 'root',         // 密码
+    'DB_PWD'=> '',         // 密码
 
     //默认错误跳转对应的模板文件
     // 'TMPL_ACTION_ERROR' => THINK_PATH . 'Tpl/jump.html',

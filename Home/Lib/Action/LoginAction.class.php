@@ -3,7 +3,6 @@
 class LoginAction extends CommAction {
 	// $_validate;
     public function login(){
-
     	$this->display();
     }
     // 验证用户登陆

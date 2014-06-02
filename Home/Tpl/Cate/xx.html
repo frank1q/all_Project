@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>修改</title>
+</head>
+
+<!-- 点击更新验证码 -->
+
+<body>
+	<form action="__URL__/xiugai" method="post">
+		<p>name<input type="text" name="aname" id="" value="<{$arr.name}>" /></p>
+		<p>pid<input type="text" name="bpid" value="<{$arr.pid}>" /></p>
+		<p>sort_id<input type="text" name="csort_id" value="<{$arr.sort_id}>" /></p>
+		<p><input type="hidden" name="id" value="<{$arr.id}>" /></p>
+		<p><input type="submit" value="修改" name="sub" /></p>
+		<p><a href="__APP__/Index/index">返回主页</a></p>	
+	</form>
+</body>
+</html>
